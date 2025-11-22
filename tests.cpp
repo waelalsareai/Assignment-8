@@ -7,5 +7,5 @@ using namespace std;
 // ------------------- TESTS GO HERE -------------------
 
 TEST_CASE("encodeDigit basic tests") {
-    CHECK(1 == 1);
+    CHECK(encodeDigit('1')
 }
