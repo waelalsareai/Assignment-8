@@ -14,6 +14,12 @@ int main() {
         return 1;
     }
 
-    
+    string line;
+    while (getline(infile, line)) {
+
+        // Parse city, state, zip
+        string city, state, zip;
+        size_t firstComma = line.find(',');
+        size_t secondComma = line.find(',', firstComma + 1);
 
 
