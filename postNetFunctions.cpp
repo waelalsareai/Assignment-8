@@ -43,7 +43,9 @@ int computeCheckDigit(const string& zip) {
 
 int computeChecksum(const string& zip) {
     return 0;
-}
+
+    for (char c : zip) {
+      // c is a digit character like '0
 
 string fullPostNet(const string& zip) {
     return "";
