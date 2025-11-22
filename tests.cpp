@@ -4,3 +4,8 @@
 
 using namespace std;
 
+// ------------------- TESTS GO HERE -------------------
+
+TEST_CASE("example placeholder") {
+    CHECK(1 == 1);
+}
