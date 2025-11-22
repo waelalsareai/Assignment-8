@@ -70,7 +70,7 @@ int computeChecksum(const string& zip) {
   }
 
 string fullPostNet(const string& zip) {
-    string encoded = encodeZip(zip);
+    string cleaned = cleanZip(zip);
     int checkDigit = computeCheckDigit(zip);
     string encodedCheck = encodeDigit(char(checkDigit + '0'));
 
