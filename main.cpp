@@ -29,6 +29,14 @@ int main() {
         // Clean formatting -> New York, NY 56458
         outfile << city << ", " << state << " " << zip << endl;
 
-        //
+        // Convert Zip to PostNet
+        outfile << fullPostNet(zip)<< endl;
+    }
+
+    infile.close ();
+    outfile.close();
+
+    return 0;
+}
 
 
