@@ -8,5 +8,5 @@ using namespace std;
 
 TEST_CASE("encodeDigit basic tests") {
     CHECK(encodeDigit('1') == "0011" );
-    CHECK( encodeDigit('1')
+    CHECK( encodeDigit('0') == 
 }
