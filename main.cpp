@@ -22,6 +22,13 @@ int main() {
         size_t firstComma = line.find(',');
         size_t secondComma = line.find(',', firstComma + 1);
 
+        city = line.substr(0, firstComma);
+        state = line.substr(firstComma + 1, secondComma - firstComma - 1);
+        zip = line.substr(secondComma + 1);
+
+        // Clean formatting -> New York, NY 56458
+        outfile << city << ", " << state << " " << zip << endl;
+
         
 
 
