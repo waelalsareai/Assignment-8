@@ -38,8 +38,14 @@ string encodeZip(const string& zip) {
 }
 
 int computeCheckDigit(const string& zip) {
-    return 0;
-}
+    int checksum = computeChecksum(zip);
+    int remainder = checksum % 10;
+
+    if (remainder == 0) {
+      return 0;
+    }
+    return 10 - remainder;
+  }
 
 int computeChecksum(const string& zip) {
     int sum = 0;
