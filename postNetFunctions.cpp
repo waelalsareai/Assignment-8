@@ -41,7 +41,7 @@ int computeCheckDigit(const string& zip) {
     return 0;
 }
 
-int co puteChecksum
+int computeChecksum(const string& zip);
 
 string fullPostNet(const string& zip) {
     return "";
