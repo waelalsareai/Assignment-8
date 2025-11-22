@@ -46,7 +46,7 @@ int computeChecksum(const string& zip) {
     for (char c : zip) {
       sum += c - '0';
     }
-    return (10 - (sum % 10)) % 10;
+    return sum;
   }
 
 string fullPostNet(const string& zip) {
