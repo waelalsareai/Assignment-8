@@ -33,8 +33,15 @@ string encodeDigit(char digit) {
     }
 }
 
-
-
+string cleanZip(const string& raw) {
+  string result = "";
+  for (char c : raw) {
+    if (isdigit(c)) {
+      result += c;
+    }
+  }
+  return result;
+}
 string encodeZip(const string& zip) {
     string result = "";
 
