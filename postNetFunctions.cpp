@@ -15,3 +15,18 @@ string parseZip(const string& line) {
     return "";
 }
 
+string encodeDigit(char digit) {
+    return "";
+}
+
+string encodeZip(const string& zip) {
+    return "";
+}
+
+int computeCheckDigit(const string& zip) {
+    return 0;
+}
+
+string fullPostNet(const string& zip) {
+    return "";
+}
