@@ -13,4 +13,6 @@ TEST_CASE("encodeDigit basic tests") {
 }
 
 TEST_CASE("computeCheckSum basic") {
-    CHECK(computeCheckSum("0")==0);
+    CHECK(computeChecksum("0")==0);
+    CHECK(computeChecksum("80421")==15);
+    CHECK(computeChecksum("80421")==15);
