@@ -22,3 +22,7 @@ TEST_CASE("computeCheckDigit basic") {
   CHECK(computeCheckDigit("80421")==5);
   CHECK(computeCheckDigit("555551237")==2);
 }
+
+TEST_CASE("encodeZip basic") {
+  CHECK( encodeZip("12345")== "000110010101001100010100101101");
+}
