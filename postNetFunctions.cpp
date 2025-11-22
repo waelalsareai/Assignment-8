@@ -36,8 +36,8 @@ string encodeDigit(char digit) {
 string encodeZip(const string& zip) {
     string result = "";
 
-    for (char d : zip) {
-      result += encodeDigit(d);
+    for (char c : zip) {
+      result += encodeDigit(c);
 }
 return result;
 }
