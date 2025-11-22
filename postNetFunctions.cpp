@@ -17,7 +17,8 @@ string parseZip(const string& line) {
 }
 
 string encodeDigit(char digit) {
-    return "";
+    switch (digit) {
+      
 }
 
 string encodeZip(const string& zip) {
