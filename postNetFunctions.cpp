@@ -49,7 +49,7 @@ int computeChecksum(const string& zip) {
       // c is a digit character like '0', '1', ...
       sum += c - '0';
     }
-    return sum;
+    return (10 - (sum % 10)) % 10;
   }
 
 string fullPostNet(const string& zip) {
