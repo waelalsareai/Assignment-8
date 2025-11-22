@@ -18,7 +18,11 @@ string parseZip(const string& line) {
 
 string encodeDigit(char digit) {
     switch (digit) {
-      
+      case '0': return "11000";
+      case '1': return "00011";
+      case '2': return "00101";
+      case '3': return "00110";
+      case '4': return ""
 }
 
 string encodeZip(const string& zip) {
