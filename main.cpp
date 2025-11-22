@@ -1,4 +1,5 @@
 #include <iostream>
+#include "postNetfuctions.h"
 
 using namespace std;
 
