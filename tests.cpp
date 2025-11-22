@@ -6,6 +6,6 @@ using namespace std;
 
 // ------------------- TESTS GO HERE -------------------
 
-TEST_CASE("example placeholder") {
+TEST_CASE("encodeDigit basic tests") {
     CHECK(1 == 1);
 }
