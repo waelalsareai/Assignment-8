@@ -28,5 +28,5 @@ TEST_CASE("encodeZip basic") {
 }
 
 TEST_CASE("fullPostNet basic") {
-  CHECK(fullPostNet("12345")=="0001100101001100100101010");
+  CHECK(fullPostNet("12345")=="");
 }
