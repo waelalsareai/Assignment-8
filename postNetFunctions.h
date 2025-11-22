@@ -9,6 +9,9 @@ string parseState(const string& line);
 string parseCity(const string& line);
 string parseZip(const string& line);
 
-
+string encodeDigit(char digit);
+string encodeZip(const string& zip);
+int computeCheckDigit(const string& zip);
+string fullPostNet(const string& zip);
 
 #endif
