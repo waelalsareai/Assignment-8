@@ -29,6 +29,6 @@ int main() {
         // Clean formatting -> New York, NY 56458
         outfile << city << ", " << state << " " << zip << endl;
 
-        
+        //
 
 
