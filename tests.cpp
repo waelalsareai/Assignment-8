@@ -26,3 +26,6 @@ TEST_CASE("computeCheckDigit basic") {
 TEST_CASE("encodeZip basic") {
   CHECK( encodeZip("12345")== "0001100101001100100101010");
 }
+
+TEST_CASE("fullPostNet basic") {
+  CHECK(fullPostNet("12345"))
