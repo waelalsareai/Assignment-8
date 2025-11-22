@@ -11,3 +11,4 @@ TEST_CASE("encodeDigit basic tests") {
     CHECK( encodeDigit('0') == "11000" );
     CHECK( encodeDigit('5') == "01010" );
 }
+
