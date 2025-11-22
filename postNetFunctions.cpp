@@ -65,5 +65,5 @@ string fullPostNet(const string& zip) {
     int checkDigit = computeCheckDigit(zip);
     string encodeCheck = encodeDigit(char(checkDigit + '0'));
 
-    return "1" + encoded + encodedCheck + "1";
+    return "1" + encoded + encodeCheck + "1";
 }
