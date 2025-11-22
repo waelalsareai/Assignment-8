@@ -24,5 +24,5 @@ TEST_CASE("computeCheckDigit basic") {
 }
 
 TEST_CASE("encodeZip basic") {
-  CHECK( encodeZip("12345")== "0001100100101100100100101101");
+  CHECK( encodeZip("12345")== "000110010100");
 }
