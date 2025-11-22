@@ -45,7 +45,11 @@ int computeChecksum(const string& zip) {
     return 0;
 
     for (char c : zip) {
-      // c is a digit character like '0
+      // c is a digit character like '0', '1', ...
+      sum += c - '0';
+    }
+    return sum;
+  }
 
 string fullPostNet(const string& zip) {
     return "";
