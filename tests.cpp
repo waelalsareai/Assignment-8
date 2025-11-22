@@ -19,4 +19,6 @@ TEST_CASE("computeCheckSum basic") {
 }
 
 TEST_CASE("computeCheckDigit basic") {
-  CHECK(computeCheckDigit("80421"))
+  CHECK(computeCheckDigit("80421")==5);
+  CHECK(computeCheckDigit("555551237")==2);
+}
