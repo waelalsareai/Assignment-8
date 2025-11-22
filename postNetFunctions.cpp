@@ -33,6 +33,8 @@ string encodeDigit(char digit) {
     }
 }
 
+
+
 string encodeZip(const string& zip) {
     string result = "";
 
