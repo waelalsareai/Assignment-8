@@ -42,8 +42,6 @@ int computeCheckDigit(const string& zip) {
 }
 
 int computeChecksum(const string& zip) {
-    return 0;
-
     int sum = 0;
     for (char c : zip) {
       sum += c - '0';
