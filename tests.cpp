@@ -12,3 +12,5 @@ TEST_CASE("encodeDigit basic tests") {
     CHECK( encodeDigit('5') == "01010" );
 }
 
+TEST_CASE("computeCheckSum basic") {
+    CHECK(computeCheckSum("0")==0);
