@@ -34,7 +34,10 @@ string encodeDigit(char digit) {
 }
 
 string encodeZip(const string& zip) {
-    return "";
+    string result = "";
+
+    for (char c :: zip) {
+      result += encodeDigit(c);
 }
 
 int computeCheckDigit(const string& zip) {
