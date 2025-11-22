@@ -18,3 +18,5 @@ TEST_CASE("computeCheckSum basic") {
     CHECK(computeChecksum("555551237")==38);
 }
 
+TEST_CASE("computeCheckDigit basic") {
+  CHECK(computeCheckDigit)
